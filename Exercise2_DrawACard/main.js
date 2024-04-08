@@ -13,12 +13,12 @@ function getApi()
         showCardImgDiv(cardImgSrc);
     })
     .catch(err => console.error(err))
-
 }
 
 function showCardImgDiv(imageURL){
     let newCardImageDiv = document.createElement("img");
     newCardImageDiv.setAttribute("src",imageURL);
+    newCardImageDiv.setAttribute("class","img-fluid");
     document.getElementById("cardImage").innerHTML = "";//nollställer diven
     document.getElementById("cardImage").appendChild(newCardImageDiv);
 }
