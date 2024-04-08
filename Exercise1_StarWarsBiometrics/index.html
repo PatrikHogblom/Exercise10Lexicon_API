@@ -13,13 +13,13 @@ och får tillbaka geometrisk data. T.ex. Luke skywalker-->
 <body>
 
     <header class="bg-dark text-white text-center p-4">
-        <h1>star wars header</h1>
+        <h1>Search for character in Star Wars</h1>
     </header>
 
-    <main class="mb-5 pb-5">
-        <div class="input-group p-2">
-            <input type="text" class="form-control" placeholder="input name of character in star wars" id="inputName">
-            <button class="btn btn-outline-secondary" type="button" id="inputName-btn">Button</button>
+    <main class="mb-5 p-5 row d-flex justify-content-center">
+        <div class="input-group w-75">
+            <input type="text" class="form-control" placeholder="Name to search" id="inputName">
+            <button class="btn btn-success" type="button" id="inputName-btn">Search</button>
         </div>
         <div class="form-floating m-4">
             <textarea class="form-control" id="outputInfo" rows="5" placeholder="text1" readonly></textarea>
@@ -28,10 +28,10 @@ och får tillbaka geometrisk data. T.ex. Luke skywalker-->
     </main>
 
     <footer class="bg-primary text-center text-white fixed-bottom">
-        <p class="p-4">&copy;Patrik Högblom</p>
+        <p class="m-4">&copy;Patrik Högblom</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="javaScript/starWars.js"></script>
+    <script src="starWars.js"></script>
 </body>
 </html>
