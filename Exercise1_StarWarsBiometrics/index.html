@@ -1,4 +1,4 @@
-<!--Uppgift, bygg en sida där användaren skriver in namnert på en star-wars karaktär
+<!--Uppgift, bygg en sida där användaren skriver in namnet på en star-wars karaktär
 och får tillbaka geometrisk data. T.ex. Luke skywalker-->
 
 <!DOCTYPE html>
@@ -13,10 +13,11 @@ och får tillbaka geometrisk data. T.ex. Luke skywalker-->
 <body>
 
     <header class="bg-dark text-white text-center p-4">
-        <h1>Search for character in Star Wars</h1>
+        <h1>Star Wars Biometrics</h1>
     </header>
 
     <main class="mb-5 p-5 row d-flex justify-content-center">
+        <h4 class="text-center">Search for Star Wars character and get thier data</h4>
         <div class="input-group w-75">
             <input type="text" class="form-control" placeholder="Name to search" id="inputName">
             <button class="btn btn-success" type="button" id="inputName-btn">Search</button>
@@ -24,7 +25,6 @@ och får tillbaka geometrisk data. T.ex. Luke skywalker-->
         <div class="form-floating m-4">
             <textarea class="form-control" id="outputInfo" rows="5" placeholder="text1" readonly></textarea>
         </div>
-
     </main>
 
     <footer class="bg-primary text-center text-white fixed-bottom">
